@@ -67,7 +67,7 @@ class TestProvaEscrita04(unittest.TestCase):
 
     def test_transformar(self):
         """Test per validar la funció transformar."""
-        transformar(m_ex, 10, "-")
+        transformar(m_ex, 10, "+")
         self.assertEqual(m_ex, [[11, 12, 13], [14, 15, 16], [17, 18, 19]])  # Comprova la transformació suma.
 
         transformar(m_ex, 1, "-")
